@@ -195,9 +195,9 @@ public class StudentManagementSystem {
     }
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/jdbc_practice";
-        String username = "root";
-        String pass = "Schoolap69";
+        String url = "jdbc:mysql://localhost:3306/DatabaseName";
+        String username = "username";
+        String pass = "databasepassword";
         try (Connection con = DriverManager.getConnection(url, username, pass)) {
             boolean T = true;
             while (T) {
